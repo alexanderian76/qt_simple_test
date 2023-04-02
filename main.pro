@@ -10,3 +10,4 @@ SOURCES += \
 
 HEADERS  += mainwindow.h
 HEADERS += paintscene.h
+HEADERS += socket.h

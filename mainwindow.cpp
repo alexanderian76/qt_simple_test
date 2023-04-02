@@ -35,7 +35,9 @@ void MainWindow::pushButton() {
 }
 
 void MainWindow::saveButton() {
-    send();
+   // send();
+    QString filename= QFileDialog::getSaveFileName(this, "Save As");
+    send(filename);
   //  QGraphicsView* view = new QGraphicsView(scene,this);
   //  QString fileName = "file_name.png";
   //  QPixmap pixMap = view->grab(view->sceneRect().toRect());

@@ -2,3 +2,10 @@
 main
 .qmake.stash
 Makefile
+.xcode
+./Debug
+main.app
+main.xcodeproj
+Info.plist
+moc_*.h
+moc_*.cpp

@@ -7,10 +7,11 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <netinet/in.h>
+#include <QtWidgets>
 
 #define PORT_NUMBER     5000
-#define SERVER_ADDRESS  "192.168.1.75"
+#define SERVER_ADDRESS  "192.168.1.74"
 #define FILENAME        "send.txt"
 
-void send();
+void send(QString);
 void die(char *);
